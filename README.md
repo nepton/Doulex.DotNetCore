@@ -1,6 +1,6 @@
 ﻿# Doulex.DotNetCore
 
-[![Build status](https://ci.appveyor.com/api/projects/status/evbtetf22sxxrph7?svg=true)](https://ci.appveyor.com/project/nepton/Thingsboard.Net)
+[![Build status](https://ci.appveyor.com/api/projects/status/4m0v88ayw844oh58?svg=true)](https://ci.appveyor.com/project/nepton/doulex-dotnetcore)
 ![GitHub issues](https://img.shields.io/github/issues/nepton/Doulex.DotNetCore.svg)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/Doulex.DotNetCore/blob/master/LICENSE)
 
