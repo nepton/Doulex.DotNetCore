@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 
-namespace Doulex.DotNetCore.Configuration;
+namespace Doulex.DotNetCore.NetEscapadesYaml;
 
 public static class YamlConfigurationExtensions
 {

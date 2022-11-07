@@ -1,21 +1,26 @@
-﻿# Doulex.AspNetCore
+﻿# Doulex.DotNetCore
 
 [![Build status](https://ci.appveyor.com/api/projects/status/evbtetf22sxxrph7?svg=true)](https://ci.appveyor.com/project/nepton/Thingsboard.Net)
-![GitHub issues](https://img.shields.io/github/issues/nepton/Doulex.AspNetCore.svg)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/Doulex.AspNetCore/blob/master/LICENSE)
-
-**All client API are tested in Thingsboard v3.4.x**
+![GitHub issues](https://img.shields.io/github/issues/nepton/Doulex.DotNetCore.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nepton/Doulex.DotNetCore/blob/master/LICENSE)
 
 ## Nuget packages
 
-| Name                                      | Version                                                                                                                                                             | Downloads                                                                                                                                                            |
-|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Doulex.AspNetCore                     | [![nuget](https://img.shields.io/nuget/v/Doulex.AspNetCore.svg)](https://www.nuget.org/packages/Doulex.AspNetCore/)                                         | [![stats](https://img.shields.io/nuget/dt/Doulex.AspNetCore.svg)](https://www.nuget.org/packages/Doulex.AspNetCore/)                                         |
-| Doulex.AspNetCore.Abstractions              | [![nuget](https://img.shields.io/nuget/v/Doulex.AspNetCore.Abstractions.svg)](https://www.nuget.org/packages/Doulex.AspNetCore.Abstractions/)                           | [![stats](https://img.shields.io/nuget/dt/Doulex.AspNetCore.Abstractions.svg)](https://www.nuget.org/packages/Doulex.AspNetCore.Abstractions/)                           |
+| Name                   | Version                                                                                                                                                             | Downloads                                                                                                                                                            |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Doulex.DotNetCore      | [![nuget](https://img.shields.io/nuget/v/Doulex.DotNetCore.svg)](https://www.nuget.org/packages/Doulex.DotNetCore/)                                         | [![stats](https://img.shields.io/nuget/dt/Doulex.DotNetCore.svg)](https://www.nuget.org/packages/Doulex.DotNetCore/)                                         |
 
 ## Usage
 
 Creating a client and trying to invoke getCurrentUser method:
+
+```csharp
+// use yaml configuration file replace with your own
+builder.Configuration.ReplaceJsonFilesToYaml();
+
+// use attribute to inject configuration based scrutor
+builder.Services.AddScrutorDependencyInjectionInProjects();
+```
 
 ## Final
 

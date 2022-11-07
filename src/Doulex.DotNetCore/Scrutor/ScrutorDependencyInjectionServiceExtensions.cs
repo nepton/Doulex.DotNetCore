@@ -5,7 +5,7 @@ namespace Doulex.DotNetCore;
 
 public static class ScrutorDependencyInjectionServiceExtensions
 {
-    public static IServiceCollection AddDependencyInjectionInProjects(this IServiceCollection services)
+    public static IServiceCollection AddScrutorDependencyInjectionInProjects(this IServiceCollection services)
     {
         services.Scan(scan =>
         {
